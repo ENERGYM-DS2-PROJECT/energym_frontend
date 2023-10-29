@@ -1,0 +1,23 @@
+name: PR validation
+on: 
+  pull-request: 
+    branches: 
+      - main
+      - develop
+
+defaults: 
+  run:
+    shell: bash
+    working-directory: ./
+
+jobs: 
+  pr_validation: 
+    name: 'PR validation'
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Test code
+        run: npm test -- --watchAll=false
