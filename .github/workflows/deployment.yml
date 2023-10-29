@@ -70,4 +70,5 @@ jobs:
             docker stop energym-frontend
             docker rm energym-frontend
             docker run -d -p 8002:80 --name energym-frontend -i -t '${ACC_ID}.dkr.ecr.us-east-2.amazonaws.com/energym:${IMAGE_TAG}'
+            docker image prune -a -f
           '
