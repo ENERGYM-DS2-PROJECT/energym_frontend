@@ -20,5 +20,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
       - name: Test code
         run: npm test -- --watchAll=false
