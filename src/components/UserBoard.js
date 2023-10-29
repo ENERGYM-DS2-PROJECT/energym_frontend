@@ -52,7 +52,7 @@ const UserBoard = () => {
               <img
                   className="logo-icon"
                   src={require('../resources/images/riendo.png')}
-                  alt="image"
+                  alt=""
               />
 
             </IconButton>
@@ -114,7 +114,7 @@ const UserBoard = () => {
               <img
                   className="logo-icon"
                   src={require('../resources/images/riendo.png')}
-                  alt="image"
+                  alt=""
               />
 
             </IconButton>

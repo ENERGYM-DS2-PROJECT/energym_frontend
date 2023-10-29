@@ -45,7 +45,7 @@ const ResponsiveAppBar = () => {
               <img
                   className="logo-icon"
                   src={require('../resources/images/riendo.png')}
-                  alt="image" 
+                  alt="" 
               />
 
             </IconButton>
