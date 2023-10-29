@@ -51,7 +51,8 @@ const UserBoard = () => {
             <IconButton sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
               <img
                   className="logo-icon"
-                  src={require('../resources/images/riendo.png')} 
+                  src={require('../resources/images/riendo.png')}
+                  alt="image"
               />
 
             </IconButton>
@@ -112,7 +113,8 @@ const UserBoard = () => {
             <IconButton sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }}>
               <img
                   className="logo-icon"
-                  src={require('../resources/images/riendo.png')} 
+                  src={require('../resources/images/riendo.png')}
+                  alt="image"
               />
 
             </IconButton>
