@@ -74,7 +74,7 @@ export default function Login() {
                         <Grid item xs={ 6 }> 
                             <Paper className="paper2s">
                                 <div className="main-text">
-                                    <h4>LOREM IPSUM DOLOR SIT</h4>
+                                    <h4>¡Te extrañamos!</h4>
                                     {/* <p className="secondary-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sequi ad voluptatibus, voluptatem possimus impedit.</p> */}
                                 </div>
                                 <Box
